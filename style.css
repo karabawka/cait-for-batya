@@ -29,7 +29,7 @@ h1 {
     color: RGB(14, 66, 67);
     font-family: inherit;
     @media screen and (max-width: 768px) {
-        font-size: 16px;
+        font-size: 20px;
     }
 }  
 h3 {
@@ -51,7 +51,9 @@ h3 {
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 20px;
-    
+    @media screen and (min-width: 768px) {
+        background-size: contain;;
+    }
     
 }
 
@@ -59,6 +61,9 @@ h3 {
     color: black;
     width: 45%;
     height: 45%;
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
+    }
 }
 
 footer {
@@ -82,3 +87,4 @@ footer {
 
 
 }
+
