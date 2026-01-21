@@ -6,6 +6,12 @@ body {
     background-repeat: no-repeat;
     width: auto;
     height: auto;
+
+    /* Стиль для планшетов и мобильных устройств (ширина до 768px) */
+@media screen and (max-width: 768px) {
+    
+    font-size: 14px; /* Уменьшаем шрифт для маленьких экранов */
+    }
 }
 header {
     display: flex;
@@ -38,6 +44,7 @@ h3 {
     width: 45%;
     height: 700px;
     background: url("baby_img.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
     margin: 20px;
     
