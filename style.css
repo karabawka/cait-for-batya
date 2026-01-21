@@ -52,7 +52,8 @@ h3 {
     background-size: 100%;
     margin: 20px;
     @media screen and (min-width: 768px) {
-        background-size: contain;;
+        background-size: contain;
+        
     }
     
 }
@@ -62,7 +63,7 @@ h3 {
     width: 45%;
     height: 45%;
     @media screen and (max-width: 768px) {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
