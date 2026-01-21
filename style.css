@@ -1,0 +1,72 @@
+
+
+body {
+    background: url("background_img.jpg");
+    background-size: 110%;
+    width: auto;
+    height: auto;
+}
+header {
+    display: flex;
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    justify-content: center;
+
+}
+h1 {
+    width: 70%;
+    justify-content: center;
+    align-self: center;
+    color: RGB(14, 66, 67);
+    font-family: inherit;
+}  
+h3 {
+    color: rgb(128, 0, 0);
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.preview_image {
+    width: 45%;
+    height: 700px;
+    background: url("baby_img.jpg");
+    background-size: 100%;
+    margin: 20px;
+    
+    
+}
+
+.list {
+    color: black;
+    width: 45%;
+    height: 45%;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;    
+    width: 90%;
+    height: 10%;
+    }
+
+    .vk {
+    margin-right: 2%; 
+    margin-top: 20px;
+    }
+.tel {
+    margin-right: 5%; 
+    margin-top: 20px;
+
+
+}
