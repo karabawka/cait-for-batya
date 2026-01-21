@@ -29,7 +29,7 @@ h1 {
     color: RGB(14, 66, 67);
     font-family: inherit;
     @media screen and (max-width: 768px) {
-        font-size: 14px;
+        font-size: 16px;
     }
 }  
 h3 {
