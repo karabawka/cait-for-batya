@@ -9,7 +9,7 @@ body {
 
     /* Стиль для планшетов и мобильных устройств (ширина до 768px) */
 @media screen and (max-width: 768px) {
-    
+    background-size: contain;
     font-size: 14px; /* Уменьшаем шрифт для маленьких экранов */
     }
 }
