@@ -28,6 +28,9 @@ h1 {
     align-self: center;
     color: RGB(14, 66, 67);
     font-family: inherit;
+    @media screen and (max-width: 768px) {
+        font-size: 14px;
+    }
 }  
 h3 {
     color: rgb(128, 0, 0);
