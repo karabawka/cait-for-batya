@@ -10,8 +10,10 @@ body {
     /* Стиль для планшетов и мобильных устройств (ширина до 768px) */
 @media screen and (max-width: 768px) {
     background-size: contain;
-    background-size: auto;
     font-size: 14px; /* Уменьшаем шрифт для маленьких экранов */
+    }
+    @media screen and (max-width: 390px) {
+        font-size: 9px;
     }
 }
 header {
@@ -31,41 +33,94 @@ h1 {
     @media screen and (max-width: 768px) {
         font-size: 20px;
     }
+    @media screen and (max-width: 416px) {
+        font-size: 11px;
+    }
+    @media screen and (max-width: 380px) {
+        font-size: 9px;
+    }
 }  
+
+@media screen and (max-width: 480px) {
+        .inline_hidden {
+            display: none;
+        }
+    }
+@media screen and (min-width: 481px) {
+        .inline_hidden {
+            display: inline;
+        }
+    }
+
+@media screen and (min-width: 481px) {
+        .inline_visible {
+            display: inline;
+        }
+    }
+@media screen and (min-width: 481px) {
+        .inline_visible {
+            display: none;
+        }
+    }
+
+.inline_visible { @media screen and (max-width: 480px) {
+    text-align: center; }
+}
+
+h2 {
+    
+        @media screen and (max-width: 416px) {
+        font-size: 10px;
+        align-self: center;
+    }
+}
 h3 {
+    
+    
     color: rgb(128, 0, 0);
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
+    @media screen and (max-width: 480px) {
+        font-size: 11px;
+        text-align: center;
+        
+        
+}
 }
 
 .content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: auto;
+    @media screen and (max-width: 480px) {
+        font-size: 10px;
+        justify-content: center;
+        
 }
-
+}
 .preview_image {
-    width: 45%;
+    width: 65%;
     height: 700px;
     background: url("baby_img.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 20px;
-    @media screen and (min-width: 1180px) {
+        @media screen and (min-width: 1180px) {
         background-size: contain;
-        
-    }
-    
+        }
+        @media screen and (max-width: 480px) {
+            height: 280px;
+        }
 }
 
 .list {
     color: black;
     width: 45%;
-    height: 45%;
-    @media screen and (max-width: 768px) {
-        font-size: 16px;
+    
+        
     }
-}
+
 
 footer {
     display: flex;
@@ -78,7 +133,7 @@ footer {
     height: 10%;
     }
 
-    .vk {
+.vk {
     margin-right: 2%; 
     margin-top: 20px;
     }
@@ -89,3 +144,26 @@ footer {
 
 }
 
+@media (max-width: 480px) {
+    .hidden_image {
+        display: none;
+    }
+}
+
+/* Для маленьких экранов (мобильные) */
+@media (max-width: 480px) {
+    .vk {
+    background-image: url('vk_icon_media.svg'); /* SVG отлично масштабируется */
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    }
+}
+@media (max-width: 480px) {
+    .tel {
+    background-image: url('tel_icon_media.svg'); /* SVG отлично масштабируется */
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    }
+}
