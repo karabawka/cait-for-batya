@@ -67,8 +67,8 @@ h1 {
     text-align: center; }
 }
 
-h2 {
-    
+h2 {    
+        height: 20px;
         @media screen and (max-width: 480px) {
         font-size: 14px;
         align-self: center;
